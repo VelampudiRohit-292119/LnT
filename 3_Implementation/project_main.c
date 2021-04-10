@@ -14,7 +14,7 @@ int calculator_operand2 = 0;
 /* Valid operations */
 enum operations{ ADD=1, SUBTRACT, MULTIPLY, DIVIDE, EXIT };
 
-/* Display the menu of operations supported */
+/* Display the menu of operations supports */
 void calculator_menu(void);
 /* Verifies the requested operations validity */
 int valid_operation(int operation);
